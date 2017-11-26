@@ -2,15 +2,15 @@
 require("dotenv").config();
 
 const Hapi = require("hapi");
-const sanityClient = require("@sanity/client");
 const RSS = require('rss');
+const sanityClient = require("@sanity/client");
 const client = sanityClient({
   projectId: process.env.PROJECT_ID,
   dataset: process.env.DATASET || "production",
   useCdn: true // `false` if you want to ensure fresh data
 });
 
-(async () => {
+
   const { podcastFeed } = require('./lib/queries')
   const server = new Hapi.Server({
     host: "localhost",
@@ -110,9 +110,9 @@ const client = sanityClient({
 
   // Start the server
   try {
-    await server.start();
+     server.start();
   }
   catch (err) {
     console.log(err);
   }
-})();
+
