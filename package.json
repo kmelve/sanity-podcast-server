@@ -1,11 +1,12 @@
 {
-  "name": "heroku-podcast-server",
+  "name": "heroku-sanity-podcast-server",
   "version": "1.0.0",
   "description": "A Sanity Podcast Service for Heroku",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --inspect index.js"
+    "dev": "nodemon --inspect index.js",
+    "start": "node"
   },
   "author": "",
   "license": "ISC",
