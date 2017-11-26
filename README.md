@@ -14,3 +14,4 @@ If your choose to run this server in another enivornment you can freely do so, b
 
 `npm run dev` runs the server locally with [nodemon](https://nodemon.io/). Remember to make a .env file with the keys set in the .env-example. These keys aren't really sensitive, but may be handy if you want to use different datasets for different environments.
 
+
