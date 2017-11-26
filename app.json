@@ -3,5 +3,11 @@
   "description": "A Sanity Podcast Service for Heroku",
   "repository": "https://github.com/kmelve/heroku-sanity-podcast-server",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["node", "express", "static"]
+  "keywords": ["node", "express", "static"],
+  "env": {
+    "PROJECT_ID": "Your Sanity Project ID",
+    "DATASET": "production"
+  },
+  "image": "heroku/node",
+  "success_url": "/welcome"
 }
