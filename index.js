@@ -13,7 +13,6 @@ const client = sanityClient({
 
   const { podcastFeed } = require('./lib/queries')
   const server = new Hapi.Server({
-    host: "localhost",
     port: process.env.PORT || 8888
   });
 
@@ -110,7 +109,7 @@ const client = sanityClient({
 
   // Start the server
   try {
-     server.start();
+   server.start().then(() => console.log(`Server running at: ${server.info.uri}`));
   }
   catch (err) {
     console.log(err);
