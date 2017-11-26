@@ -1,0 +1,25 @@
+{
+  "name": "heroku-podcast-server",
+  "version": "1.0.0",
+  "description": "A Sanity Podcast Service for Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --inspect index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sanity/client": "^0.122.0",
+    "dotenv": "^4.0.0",
+    "hapi": "^17.1.1",
+    "js2xmlparser": "^3.0.0",
+    "rss": "^1.2.2"
+  },
+  "devDependencies": {
+    "babel-preset-airbnb": "^2.4.0",
+    "eslint": "^4.12.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "nodemon": "^1.12.1"
+  }
+}
