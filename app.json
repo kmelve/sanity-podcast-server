@@ -2,7 +2,7 @@
   "name": "Heroku Sanity Podcast Server",
   "description": "A Sanity Podcast Service for Heroku",
   "repository": "https://github.com/kmelve/heroku-sanity-podcast-server",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "logo": "https://github.com/kmelve/heroku-sanity-podcast-server/blob/master/sanity-podcast-logo.png?raw=true",
   "keywords": ["node", "express", "static"],
   "env": {
     "PROJECT_ID": "Your Sanity Project ID",
