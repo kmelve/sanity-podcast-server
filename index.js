@@ -102,7 +102,9 @@ const client = sanityClient({
             ]}
           ]
       });
-        return xmlFeed.xml();
+      const response = h.response(xmlFeed.xml())
+      response.type('application/xml');
+      return response;
       }
     }
   })
