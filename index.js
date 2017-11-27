@@ -9,7 +9,7 @@ const podcastRSS = require('./lib/handlers/podcastRss');
   // Add the route
   server.route({
     method: 'GET',
-    path: '/podcast/{name}/rss',
+    path: '/{projectId}/{dataset}/{slug}/rss',
     options: {
       handler: async (request, h) => podcastRSS(request, h)
     }
@@ -17,7 +17,7 @@ const podcastRSS = require('./lib/handlers/podcastRss');
 
   // Start the server
   try {
-   server.start().then(() => console.log(`Server running at: ${server.info.uri}`));
+   server.start().then(() => console.log('Server running:', server.info));
   }
   catch (err) {
     console.log(err);
