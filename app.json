@@ -1,13 +1,9 @@
 {
-  "name": "Heroku Sanity Podcast Server",
-  "description": "A Sanity Podcast Service for Heroku",
-  "repository": "https://github.com/kmelve/heroku-sanity-podcast-server",
-  "logo": "https://github.com/kmelve/heroku-sanity-podcast-server/blob/master/sanity-podcast-logo.png?raw=true",
+  "name": "Sanity Podcast Server",
+  "description": "Get the RSS feed for your podcasts in Sanity",
+  "repository": "https://github.com/kmelve/sanity-podcast-server",
+  "logo": "https://github.com/kmelve/sanity-podcast-server/blob/master/sanity-podcast-logo.png?raw=true",
   "keywords": ["node", "express", "static"],
-  "env": {
-    "PROJECT_ID": "Your Sanity Project ID",
-    "DATASET": "production"
-  },
   "image": "heroku/node",
   "success_url": "/welcome"
 }

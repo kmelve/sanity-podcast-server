@@ -1,6 +1,15 @@
 # Sanity Podcast Server
 
+![Sanity Podcast Server Logo](https://github.com/kmelve/sanity-podcast-server/blob/master/sanity-podcast-logo.png?raw=true)
 This is a simple server for the [sanity podcast plugin](https://www.npmjs.com/package/sanity-plugin-podcast) built on node and Hapi. It's ready to deployed on Heroku, but can run on any platform that runs node.
+
+If you don't want to run it yourself you can use our free service by adding [https:// www.sanitypodcastfeed.com](https://www.sanitypodcastfeed.com) to your [CORS-setting]() and getting your feeds by accessing the url:
+
+`https://www.sanitypodcastfeed.com/<projectid>/<dataset>/<podcastslug>/rss`
+
+## Usage
+
+`npm start` to start the server.
 
 ## Installation
 
