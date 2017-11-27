@@ -22,6 +22,6 @@ If your choose to run this server in another enivornment you can freely do so, b
 
 ## Development
 
-`npm run dev` runs the server locally with [nodemon](https://nodemon.io/). Remember to make a .env file with the keys set in the .env-example. These keys aren't really sensitive, but may be handy if you want to use different datasets for different environments.
+`npm run dev` runs the server locally with [nodemon](https://nodemon.io/).
 
-
+`npm run inspect` runs the server with the inspect flag. I recommend using it with [Node.js --inspector Manager](https://chrome.google.com/webstore/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj) for Chrome.
