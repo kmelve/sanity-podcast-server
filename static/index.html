@@ -16,7 +16,7 @@
   </script>
 
 
-  <meta name="description" content="Takes your podcast in Sanity on to the ether!">
+  <meta name="description" content="Takes the JSON-output from your podcast enabled sanity studio and twirls it into XML for casting through the ephemeral effervescent aether!">
   <meta name="robots" content="index,follow">
   <!-- All Search Engines -->
   <meta name="googlebot" content="index,follow">
@@ -26,13 +26,13 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Sanity Podcast Server">
   <meta property="og:image" content="https://www.sanitypodcastserver.com/sanity-podcast-logo.png">
-  <meta property="og:description" content="Takes your podcast in Sanity on to the ether!">
+  <meta property="og:description" content="Takes the JSON-output from your podcast enabled sanity studio and twirls it into XML for casting through the ephemeral effervescent aether!">
   <meta property="og:site_name" content="Sanity Podcast Server">
   <meta property="og:locale" content="en_US">
   <meta property="article:author" content="Knut Melvær">
 
   <meta itemprop="name" content="Sanity Podcast Server">
-  <meta itemprop="description" content="Takes your podcast in Sanity on to the ether!">
+  <meta itemprop="description" content="Takes the JSON-output from your podcast enabled sanity studio and twirls it into XML for casting through the ephemeral effervescent aether!">
   <meta itemprop="image" content="https://www.sanitypodcastserver.com/sanity-podcast-logo.png">
 
   <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
@@ -97,8 +97,18 @@
   <div>
     <small>e.g. https://www.sanitypodcastfeed.com/j4iakyct/production/small-differences/rss</small>
   </div>
+  <div>
+    <h2>How it works</h2>
+    <p>This service runs a node.js server with routing and takes the slugs from your url and use them to access your podcast
+      and episodes schemes using the
+      <a href="https://www.npmjs.com/package/@sanity/client">@sanity/client</a>. It then takes the return JSON-data and converts into a RSS-feed using the npm-package
+      <a href="https://www.npmjs.com/package/rss">rss</a>. Most of the time was used to figure out what needed to be in a valid podcast-RSS feed. For that I used
+      <a href="http://castfeedvalidator.com/">Castfeedvalidator</a>. You should probably test your own feed with it as well.
+    </p>
+  </div>
   <nav>
     <ul>
+
       <li>Check out
         <a href="https://sanity.io">Sanity</a>
       </li>
@@ -114,7 +124,7 @@
 <footer>
   Made by
   <a href="https://github.com/kmelve">Knut Melvær</a> in whatever year it is now.
-  <a href="https://twitter.com/kmelve">Let me know how this service works for you</a>.
+  <a href="https://twitter.com/kmelve">Let me know how this service works for you</a>. This site uses Google Analytics and cookies, but just to satisify my curiosity.
 </footer>
 
 <body>
