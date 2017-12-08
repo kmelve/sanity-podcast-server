@@ -28,6 +28,6 @@ If your choose to run this server in another enivornment you can freely do so, b
 
 ## Roadmap
 
-- [ ] Informative frontpage
+- [ ] Informative frontpage
 - [ ] Simple admin-page with authentication
 - [ ] Google Analytics or other statistics-integration
