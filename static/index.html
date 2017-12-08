@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+  <title>Sanity Podcast Server</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+    html,
+    body {
+      margin: 1em;
+      font-size: 18px;
+      font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    header,
+    main,
+    footer {
+      margin-bottom: 3rem;
+    }
+
+    img {
+      width: 200px;
+    }
+
+    p {
+      max-width: 720px;
+    }
+
+    code {
+      word-wrap: break-word;
+    }
+
+    small {
+      color: grey;
+    }
+  </style>
+</head>
+<header>
+  <img src="/sanity-podcast-logo.png" alt="Logo">
+  <h1>Sanity Podcast Server</h1>
+</header>
+<main>
+  <p>This is a simple server for the
+    <a href="https://github.com/kmelve/sanity-podcast-server">sanity podcast plugin</a> built on node.js and
+    <a href="https://github.com/hapijs/hapi">Hapi</a>.</p>
+  <p>You can
+    <a href="https://github.com/kmelve/sanity-podcast-server">host it yourself</a> or use this service by adding
+    <em>https:// www.sanitypodcastfeed.com</em> to your
+    <a href="https://manage.sanity.io">CORS-setting</a> and getting your feeds by accessing the url:
+  </p>
+  <div>
+    <code>https://www.sanitypodcastfeed.com/&lt;projectid&gt;/&lt;dataset&gt;/&lt;podcastslug&gt;/rss</code>
+  </div>
+  <div>
+    <small>e.g. https://www.sanitypodcastfeed.com/j4iakyct/production/small-differences/rss</small>
+  </div>
+  <nav>
+    <ul>
+      <li>Check out
+        <a href="https://sanity.io">Sanity</a>
+      </li>
+      <li>Dive into
+        <a href="https://github.com/kmelve/sanity-plugin-podcast">the plugin code on Github</a>
+      </li>
+      <li>Find out how to add a podcast to
+        <a href="https://itunespartner.apple.com/podcasts">the iTunes directory</a>
+      </li>
+    </ul>
+  </nav>
+</main>
+<footer>
+  Made by
+  <a href="https://github.com/kmelve">Knut Melvær</a> in whatever year it is now.
+  <a href="https://twitter.com/kmelve">Let me know how this service works for you</a>.
+</footer>
+
+<body>
+
+</body>
+
+</html>
