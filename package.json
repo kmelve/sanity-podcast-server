@@ -14,7 +14,7 @@
   "dependencies": {
     "@sanity/client": "^0.122.0",
     "dotenv": "^4.0.0",
-    "hapi": "^17.1.1",
+    "hapi": "^18.1.0",
     "inert": "^5.1.2",
     "js2xmlparser": "^3.0.0",
     "rss": "^1.2.2"
