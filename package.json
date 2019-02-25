@@ -16,7 +16,7 @@
     "dotenv": "^6.2.0",
     "hapi": "^18.1.0",
     "inert": "^5.1.2",
-    "js2xmlparser": "^3.0.0",
+    "js2xmlparser": "^4.0.0",
     "rss": "^1.2.2"
   },
   "devDependencies": {
