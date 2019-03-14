@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@sanity/client": "^0.140.8",
-    "dotenv": "^6.2.0",
+    "dotenv": "^7.0.0",
     "hapi": "^18.1.0",
     "inert": "^5.1.2",
     "js2xmlparser": "^3.0.0",
