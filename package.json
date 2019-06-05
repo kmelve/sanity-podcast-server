@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@sanity/client": "^0.140.8",
+    "@sanity/client": "^0.140.32",
     "dotenv": "^6.2.0",
     "hapi": "^18.1.0",
     "inert": "^5.1.2",
