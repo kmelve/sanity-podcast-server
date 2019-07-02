@@ -22,7 +22,7 @@
   "devDependencies": {
     "babel-preset-airbnb": "^2.6.0",
     "eslint": "^5.13.0",
-    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb": "^17.1.1",
     "nodemon": "^1.18.10"
   }
 }
