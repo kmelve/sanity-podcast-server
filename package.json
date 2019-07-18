@@ -1,7 +1,7 @@
 {
   "name": "sanity-podcast-server",
-  "version": "1.0.0",
-  "description": "Get the RSS feed for your podcasts in Sanit",
+  "version": "1.0.1",
+  "description": "Get the RSS feed for your podcasts in Sanity",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
