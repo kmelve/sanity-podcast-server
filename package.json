@@ -23,6 +23,6 @@
     "babel-preset-airbnb": "^4.0.1",
     "eslint": "^6.0.1",
     "eslint-config-airbnb": "^17.1.1",
-    "nodemon": "^1.19.1"
+    "nodemon": "^2.0.9"
   }
 }
